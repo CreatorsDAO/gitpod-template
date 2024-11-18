@@ -17,6 +17,7 @@ tasks:
 
   - name: "Install Sui site builder"
     init: |
+      export CARGO_BUILD_JOBS=8
       git clone https://github.com/MystenLabs/walrus-sites.git
       cd walrus-sites/site-builder
       cargo install --path .
