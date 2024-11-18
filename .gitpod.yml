@@ -1,0 +1,19 @@
+# .gitpod.yml
+tasks:
+  - name: "Install Dependencies"
+    init: |
+      npm install  # 替换为你的项目依赖安装命令
+    command: |
+      npm start    # 替换为你的项目启动命令
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint # 安装 ESLint 扩展
+    - esbenp.prettier-vscode # 安装 Prettier 扩展
+
+# image:
+#   file: Dockerfile
