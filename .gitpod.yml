@@ -1,10 +1,9 @@
 # .gitpod.yml
 tasks:
-  - name: "Install Dependencies"
+  - name: "Install Sui Command"
     init: |
-      npm install  # 替换为你的项目依赖安装命令
-    command: |
-      npm start    # 替换为你的项目启动命令
+      wget https://github.com/MystenLabs/sui/releases/download/mainnet-v1.37.3/sui-mainnet-v1.37.3-ubuntu-x86_64.tgz
+      tar -xzf sui-mainnet-v1.37.3-ubuntu-x86_64.tgz -C /usr/local/bin
 
 ports:
   - port: 3000
