@@ -15,6 +15,7 @@
 - ⚡️ SUI CLI 开发工具
 - 🐋 Walrus 交互工具
 - 📱 DApp 项目模版
+- 📄 Site Builder 站点发布工具
 
 #### 快速开始
 
