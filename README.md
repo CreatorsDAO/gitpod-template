@@ -17,3 +17,5 @@ git clone https://github.com/CreatorsDAO/gitpod-template.git <your-dir>
 cd <your-dir>
 git checkout sui-walrus
 ```
+
+[详细信息](https://github.com/CreatorsDAO/gitpod-template/blob/sui-walrus/README.md)
