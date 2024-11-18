@@ -11,6 +11,11 @@ tasks:
       sudo mv walrus-testnet-latest-ubuntu-x86_64-generic /usr/local/bin/walrus
       sudo chmod +x /usr/local/bin/walrus
 
+  - name: "Init Sui dapp development environment"
+    init: |
+      pnpm install
+      
+
 ports:
   - port: 3000
     onOpen: open-preview
