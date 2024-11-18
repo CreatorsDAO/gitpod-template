@@ -3,7 +3,13 @@ tasks:
   - name: "Install Sui Command"
     init: |
       wget https://github.com/MystenLabs/sui/releases/download/mainnet-v1.37.3/sui-mainnet-v1.37.3-ubuntu-x86_64.tgz
-      tar -xzf sui-mainnet-v1.37.3-ubuntu-x86_64.tgz -C /usr/local/bin
+      sudo tar -xzf sui-mainnet-v1.37.3-ubuntu-x86_64.tgz -C /usr/local/bin
+      
+  - name: "Install Walrus"
+    init: |
+      wget https://storage.googleapis.com/mysten-walrus-binaries/walrus-testnet-latest-ubuntu-x86_64-generic
+      sudo mv walrus-testnet-latest-ubuntu-x86_64-generic /usr/local/bin/walrus
+      sudo chmod +x /usr/local/bin/walrus
 
 ports:
   - port: 3000
