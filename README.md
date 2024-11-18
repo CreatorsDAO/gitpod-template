@@ -18,4 +18,5 @@ walrus --config ./walrus.yaml get-wal
 walrus --config ./walrus.yaml info
 sui client balance
 walrus --config ./walrus.yaml store ./README.md
+walrus --config ./walrus.yaml read $walrus_object_id
 ```
