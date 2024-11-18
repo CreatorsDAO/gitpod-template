@@ -22,3 +22,9 @@ sui client balance
 walrus store ./README.md
 walrus read $walrus_object_id
 ```
+
+## 4. 配置 site-builder 发布站点
+
+```shell
+site-builder publish ./walrus-sites/examples/snake/
+```
