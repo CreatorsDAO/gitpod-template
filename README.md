@@ -15,4 +15,7 @@ sui client faucet
 
 ```shell
 walrus --config ./walrus.yaml get-wal
+walrus --config ./walrus.yaml info
+sui client balance
+walrus --config ./walrus.yaml store ./README.md
 ```
