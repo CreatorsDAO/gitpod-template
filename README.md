@@ -2,7 +2,7 @@
 
 ## 1. 用githpod 打开，等待安装依赖和环境初始化
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/v1xingyue/sui-gitpod/tree/release)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CreatorsDAO/gitpod-template/tree/sui-walrus)
 
 ## 2. 新建测试账户
 
