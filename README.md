@@ -13,10 +13,12 @@ sui client faucet
 
 ## 3. 配置运行 walrus
 
+必须在 client_config.yaml 同级目录下运行
+
 ```shell
-walrus --config ./walrus.yaml get-wal
-walrus --config ./walrus.yaml info
+walrus get-wal
+walrus info
 sui client balance
-walrus --config ./walrus.yaml store ./README.md
-walrus --config ./walrus.yaml read $walrus_object_id
+walrus store ./README.md
+walrus read $walrus_object_id
 ```
