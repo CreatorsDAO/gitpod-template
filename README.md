@@ -28,3 +28,9 @@ walrus read $walrus_object_id
 ```shell
 site-builder publish ./walrus-sites/examples/snake/
 ```
+
+## 5. 启动 nextjs 测试站点
+
+```shell
+pnpm run dev
+```
